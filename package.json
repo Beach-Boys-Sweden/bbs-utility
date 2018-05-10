@@ -1,0 +1,17 @@
+{
+  "name": "@bbs/utility",
+  "version": "2018.5.0",
+  "description": "test",
+  "main": "index.js",
+  "repository": {},
+  "scripts": {
+    "build": "rm -rf ./dist && wp build -p",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {},
+  "dependencies": {
+    "@bbs/cli": "git+https://github.com/Beach-Boys-Sweden/bbs-cli.git"
+  }
+}
